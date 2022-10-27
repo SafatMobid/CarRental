@@ -36,4 +36,13 @@ function calculateBtnClick() {
 let totalCost = document.getElementById("totalCost");
 totalCost.innerHTML = `Total Cost: $${extraTotal.toFixed(2)}`;
 
+let carrentalCost = document.getElementById("carrentalCost")
+carrentalCost.innerHTML = `Car Rental: $${total.toFixed(2)}`;
+
+let optionsCost = document.getElementById("optionsCost")
+optionsCost.innerHTML = `Options: $${extraPerDay.toFixed(2)}`;
+
+let under25Cost = document.getElementById("under25Cost")
+under25Cost.innerHTML = `Total Cost: $${(total*0.3).toFixed(2)}`;
+
 }
